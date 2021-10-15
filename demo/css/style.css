@@ -129,8 +129,9 @@ canvas{
 @media screen and (max-width: 550px) {
   .card__container {
       left: 10%;
+      top: 154px;
   }
-
+  
   .header {
     font-size: 45px;
     line-height: 113%;
@@ -139,9 +140,10 @@ canvas{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #0B2349;
-    display: table;
-    padding: 50px 0 0 0;
-    
+    padding: 0 0 0 0;
+    display: inline;
+    left: -6%;
+    position: absolute;
   }
   
 }
